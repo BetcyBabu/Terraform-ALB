@@ -1,14 +1,14 @@
 variable "project"{
-    default = "myapp"
+    default = "Project Name"
 }
 
 variable "cidr_block" {
 
-    default = "172.16.0.0/16"
+    default = "cidr_block"
 
 }
 
 variable "asg-num" {
 
-    default =2
+    default = 2
 }
